@@ -1,20 +1,22 @@
-Любовь Мавлиева
-Электронная почта для связи: mavlieva13@gmail.com
+Liubov Mavlieva
 
-Желание узнавать что-то новое в жизни - это моя главная мотивация, чтобы просыпаться с утра. В середине 2021 года я увлеклась программированием и с того момента отучилась 7 месяцев в Яндекс Практикуме (фронтенд-разработчик), а так же в процессе обучения в rsschool. 
-Я стремлюсь к тому, чтобы развиваться в фронтенд-разработке и моя цель на 2022 год - это найти работу в данной сфере.
+Contact information:
+email: mavlieva13@gmail.com
+discord: Liubov(@LibovMavlieva) 
 
-На данном этапе я обладаю следующими навыками:
-- умею верстать проекты по макету Figma с использованием методологии БЭМ.
-- умею создавать адаптивную вёрстку.
-- обладаю базовыми знаниями JavaScript.
-- имею базовое понимание синхронности и асинхронности, а также концепции REST API. 
-- Есть навык писать асинхронный код и запросы к серверу.
-- Обладаю базовыми знаниями о парадигме ООП.
-- умею работать с Git через терминал.
+The desire to learn something new in life is my main motivation to wake up in the morning. In the middle of 2021, I got carried away with programming and since then I have been studing for 7 months at Yandex Practicum (front-end developer), as well as in the process of studying at rs school.
+I strive to develop in front-end development and my goal for 2022 is to find a job in the IT field.
 
-Пример кода (код взят из моей проектной работы "Место") :
+At this stage, I have the following skills:
+- I can make up Figma layout projects using the BEM methodology.
+- I can create adaptive layout.
+- I have basic knowledge of JavaScript.
+- have a basic understanding of synchronicity and asynchrony, as well as the concept of REST API.
+- I have a skill to write asynchronous code and requests to the server.
+- I have basic knowledge of the OOP paradigm.
+- I can work with Git through the terminal.
 
+Sample code (code taken from my work "Mesto"):
 _setEventListeners() {
   const inputList = Array.from (this._form.querySelectorAll(this._data.inputSelector);
   const buttonElement = this._form.querySelector(this._data.submitButtonSelector);
@@ -31,14 +33,16 @@ _setEventListeners() {
     });
   })
 }
+Work experience / study projects:
+There are several projects in my portfolio, one of which is the "Mesto" project.
+This project was carried out as part of the Yandex Praktikum. The language of the site is Russian. This site is made in the process of the study of adaptive layout, JavaScript, working with the API, as well as the principles of OOP. The project works on screen resolutions from 320px to 1280px. The BEM methodology was used. Grid technologies have been implemented. Added functionality using JS - modal windows are opened and closed, content is rendered on the page. The project was assembled using webpack. Link to the project: https://github.com/LiubovMavlieva/mesto-project 
 
-Опыт работы/учебные проекты:
-В моём портфолио имеется несколько проектов, один из которых - это проект "Место".
-Данный проект был выполнен в рамках Яндекс Практикума. Язык сайта - русский. Данный сайт выполнен в рамках изучения адаптивной вёрстки, JavaScript, работы с API, а так же принципов ООП. Проект работает на разрешениях экрана от 320px до 1280px. Использована методология БЭМ. Реализованны технологии Grid. Добавлена функциональность с помощью JS - открываются и закрываются модальные окна, отрисовывается контент на странице. Произведена сборка проекта с помощью webpack. Ссылка на проект: https://github.com/LiubovMavlieva/mesto-project 
 
-Образование:
-Незаконченное высшее МФПУ - профессия "Веб-разработчик";
-Яндекс Практикум - фронтенд разработчик;
-RSSchool stage0;
+Education:
+Unfinished MFPU - profession "Web developer";
+Yandex Workshop - front-end developer;
+RS School stage0;
 
-Английский язык : B2;
+Languages: 
+Russian: Native;
+English: B2;
