@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>cv</title>
+  <link rel="icon" href="./assets/img/favicon.ico">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#profile" class="nav-link">Contacts</a></li>
+          <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+          <li class="nav-item"><a href="#work-experience" class="nav-link">My projects</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="main">
+    <div class="main-container">
+      <section class="profile" id="profile">
+        <img class="avatar" src="./assets/img/photo.jpg" alt="avatar">
+        <div class="profile-inf-container">
+          <h1 class="profile-name">Liubov Mavlieva</h1>
+          <ul class="profile-list">
+            <li class="profile-item">
+              <p class="profile-information">email: <a class="profile-link" href="mailto:mavlieva13@icloud.com" target="_blank">Mavlieva13@icloud.com</a></p>
+            </li>
+            <li class="profile-item">
+              <p class="profile-information">discord: <a class="profile-link" href="https://discord.gg/fZPVuptmzC" target="_blank">Liubov#2610</a></p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <div class="first-column">
+        <section class="summary" id="summary">
+          <h2 class="summary-header">About me</h2>
+          <p class="summary-text">
+            The desire to learn something new in life is my main motivation to wake up in the morning. In the middle of 2021, I got carried away with programming and since then I have been studing for 7 months at Yandex Practicum (front-end developer), as well as in the process of studying at rs school. I strive to develop in front-end development and my goal for 2022 is to find a job in the IT field.
+          </p>
+        </section>
+        <section class="code" id="code">
+          <h2 class="code-header">Example of code</h2>
+          <p class="code-text">from <a href="https://www.codewars.com" class="code-link" target="_blank">CodeWars</a></p>
+          <pre class="code-container">
+        <code class="code-example">
+function generateRange(min, max, step){
+  let arr = [];
+  for (let i=min; i&lt;=max; i += step) {
+    arr.push(i);
+  }
+  return arr;
+}
+        </code>
+        </pre>
+        </section>
+        <section class="languages" id="languages">
+          <h2 class="languages-header">Languages</h2>
+          <ul class="languages-list">
+            <li class="languages-item">
+              <p class="languages-text">Russian: Native</p>
+            </li>
+            <li class="languages-item">
+              <p class="languages-text">English: B2</p>
+            </li>
+          </ul>
+        </section>
+      </div>
+      <div class="second-column">
+        <section class="skills" id="skills">
+          <h2 class="skills-header">Skills</h2>
+          <ul class="skills-list">
+            <li class="skills-item">
+              <p class="skills-text">
+                I can make up Figma layout projects using the BEM methodology.
+              </p>
+            </li>
+            <li class="skills-item">
+              <p class="skills-text">
+                I can create adaptive layout.
+              </p>
+            </li>
+            <li class="skills-item">
+              <p class="skills-text">
+                I have basic knowledge of JavaScript.
+              </p>
+            </li>
+            <li class="skills-item">
+              <p class="skills-text">
+                I have a basic understanding of synchronicity and asynchrony, as well as the concept of REST API.
+              </p>
+            </li>
+            <li class="skills-item">
+              <p class="skills-text">
+                I have a skill to write asynchronous code and requests to the server.
+              </p>
+            </li>
+            <li class="skills-item">
+              <p class="skills-text">
+                I have basic knowledge of the OOP paradigm.
+              </p>
+            </li>
+            <li class="skills-item">
+              <p class="skills-text">
+                I can work with Git through the terminal.
+              </p>
+            </li>
+          </ul>
+        </section>
+
+        <section class="work" id="work-experience">
+          <h2 class="work-header">My projects:</h2>
+          <ul class="work-list">
+            <li class="work-item">
+              <p class="work-text"><a href="https://liubovmavlieva.github.io/russian-travel/" class="work-link" target="_blank">Russian travel</a> - HTML5, CSS3</p>
+            </li>
+            <li class="work-item">
+              <p class="work-text"><a href="https://liubovmavlieva.github.io/bikes/" class="work-link" target="_blank">Bike shop</a> - HTML5, CSS3, JS, framework "Splide"</p>
+            </li>
+            <li class="work-item">
+              <p class="work-text"><a href="https://github.com/LiubovMavlieva/mesto-project" class="work-link" target="_blank">Mesto</a> - HTML5, CSS3, JS, Webpack</p>
+            </li>
+          </ul>
+        </section>
+        <section class="education" id="education">
+          <h2 class="education-header">Education</h2>
+          <ul class="education-list">
+            <li class="education-item">
+              <p class="education-text">Unfinished MFPU - profession "Web developer"</p>
+            </li>
+            <li class="education-item">
+              <p class="education-text">Yandex Workshop - front-end developer</p>
+            </li>
+            <li class="education-item">
+              <p class="education-text">RS School stage0</p>
+            </li>
+          </ul>
+        </section>
+      </div>
+    </div>
+  </main>
+  <footer class='footer'>
+    <div class="footer-container">
+      <img class="footer-logo" src="./assets/img/logo.svg" alt="Logo">
+      <div class="footer-text-container">
+        <a class="footer-link" href="https://github.com/LiubovMavlieva">My github</a>
+        <a class="footer-link" href="https://rs.school/js/">Rs school</a>
+        <p class="footer-text">2021</p>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
