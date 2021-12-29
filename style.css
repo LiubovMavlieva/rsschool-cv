@@ -1,0 +1,363 @@
+@import url(./assets/fonts/fonts.css);
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth; 
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 1440px;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  background-image: url(./assets/img/background.png);
+  background-size: cover;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+/* Header */
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-link {
+  padding: 0 14px;
+  font-size: 20px;
+  line-height: 50px;
+  text-decoration: none;
+  color: black;
+}
+
+.nav-link:hover{
+  transition: .3s;
+  color: brown;
+}
+
+/* Profile */
+
+.profile {
+  display: flex;
+  width: 700px;
+  margin: 0 auto;
+  grid-column: 1/3;
+}
+
+.profile-list{
+  padding: 0;
+  list-style: none;
+}
+
+.profile-name{
+  font-family: 'Moon Dance', cursive, sans-serif;
+  font-size: 50px;
+}
+
+.profile-information{
+  font-size: 27px;
+}
+
+.profile-link{
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+.profile-link:hover{
+  transition: .3s;
+  color: brown;  
+}
+
+.avatar{
+  width: 300px;
+  border: 2px solid black;
+}
+
+.profile-inf-container{
+  padding-left: 25px;
+}
+
+/* Summary */
+
+.summary{
+  max-width: 450px;
+  padding-left: 25px;
+}
+
+.summary-text{
+  font-size: 20px;
+  line-height: 1.3;
+}
+
+.summary-header{
+  color:white;
+  font-size: 30px;
+}
+
+.main-container{
+  display: grid;
+}
+
+/* Skills */
+
+.skills{
+  padding-left: 25px;
+}
+
+.skills-header{
+  font-size: 30px;
+}
+
+.skills-text{
+  font-size: 20px;
+}
+
+/* Code */
+
+.code{
+  padding-left: 25px;
+}
+
+.code-header{
+  color: white;
+  font-size: 30px;
+}
+
+.code-text{
+  font-size: 20px;
+  line-height: 1.3;
+  margin: 0;
+}
+
+.code-link{
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.code-link:hover{
+  transition: .3s;
+  color: black;
+}
+
+.code-example{
+  font-size: 20px;
+  line-height: 1.3;
+}
+
+.code-container{
+  margin: 0;
+}
+
+/* Work */
+
+.work{
+  padding-left: 25px;
+}
+
+.work-header{
+  margin: 0;
+  font-size: 30px;
+}
+
+.work-text{
+  font-size: 20px;
+  line-height: 1.3;
+}
+
+.work-link{
+  color: brown;
+  text-decoration: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.work-link:hover{
+  transition: .3s;
+  color: black;
+}
+
+/* Languages */
+
+.languages{
+  padding-left: 25px;
+}
+
+.languages-header{
+  font-size: 30px;
+  color: white;
+}
+.languages-text{
+  font-size: 20px;
+  line-height: 1.3;
+}
+
+/* Education */
+
+.education{
+  padding-left: 25px;
+}
+
+.education-header{
+  font-size: 30px;
+}
+
+.education-text{
+  font-size: 20px;
+}
+
+/* Footer */
+
+.footer-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 20px 0 20px;
+}
+
+.footer-text-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 300px;
+}
+
+.footer-text{
+  font-size: 18px;
+  padding-left: 25px;
+}
+
+.footer-logo{
+  width: 100px;
+}
+
+.footer-link{
+  text-transform: capitalize;
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.footer-link:hover{
+  transition: .3s;
+  color: brown;
+}
+/* Media запросы */
+
+@media screen and (min-width: 1350px) {
+  .languages-list{
+    padding-left: 10px;
+  }
+  .education-list{
+    padding-left: 10px;
+  }
+  .work-list{
+    padding-left: 10px;
+  }
+  .skills-list{
+    padding-left: 10px;
+  }
+  .main-container{
+    grid-template-columns: 600px 1fr;
+  }
+}
+
+@media screen and (max-width: 1210px) {
+  body{
+    background-image: none;
+    background-color: #ffb458;
+  }
+  .second-column{
+    padding-right: 20px;
+  }
+  .skills-header{
+    color: white;
+  }
+  .work-header{
+    color: white;
+  }
+  .education-header{
+    color: white;
+  }
+  .work-link{
+    color: white;
+  }
+  .profile-name{
+    color: white;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .nav-list{
+    justify-content: space-between;
+  }
+  body{
+    background-image: url(./assets/img/background.png);
+    background-position: top;
+  }
+  .profile-inf-container{
+    margin-left: 100px;
+  }
+  .profile-name{
+    color: black;
+  }
+  .first-column{
+    margin-left: 260px;
+  }
+  .main-container{
+    display: block;
+  }
+  .skills{
+    max-width: 550px;
+  }
+  .skills-header{
+    color: black;
+  }
+  .work-header{
+    color: black;
+  }
+  .education-header{
+    color: black;
+  }
+  .work-link{
+    color: black;
+  }
+  .profile-name{
+    color: black;
+  }
+  .code-header{
+    color: black;
+  }
+  .summary-header{
+    color: black;
+  }
+  .code-link{
+    color: black;
+  }
+  .languages-header{
+    color: black;
+  }
+  .second-column{
+    margin-left: 260px;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .nav-link{
+    font-size: 18px;
+  }
+}
